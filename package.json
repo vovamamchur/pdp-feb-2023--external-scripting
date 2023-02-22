@@ -1,0 +1,22 @@
+{
+  "name": "third-party-js",
+  "version": "1.0.0",
+  "description": "PDP project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js"
+  },
+  "keywords": [
+    "pdp"
+  ],
+  "author": "Vova Macmhur",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^12.0.0",
+    "koa": "^2.14.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
